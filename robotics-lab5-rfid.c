@@ -1,5 +1,6 @@
 
 
+// include necessary libraries
 
 #include <SPI.h>
 #include <MFRC522.h>
@@ -37,4 +38,6 @@ void loop() {
 
   // Halt the card after reading the UID
   rfid.PICC_HaltA();
+
+
 }
