@@ -3,7 +3,8 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 #include <Keypad.h>
-
+#include <RTClib.h> // RTC library for DS1307/DS3231 module
+#include <EEPROM.h>  // Include the EEPROM library
 
 #define SS_PIN 11
 #define RST_PIN 12
